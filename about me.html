@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Portfolio</title>
+    <link rel="stylesheet" href="../portfolio/about me.css ">
+    <script src="../portfolio/about me.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Education</a></li>
+            <li><a href="#work" onclick="toggleMenu();">project</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Skill</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span> G Titus</span></h2>
+            <h3>I'm learning about software development in Aruvi Institute of learning.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="../portfolio/image/photo.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who I am?</h3>
+                <h2>I'm <b>G Titus</b></h2>
+                <p>I am a software learner. i am learn about the software development in th eAruvi institute of learning</p><br>
+                <div class="heading bottom">
+                    <a href="../html/hi/resume 1.html" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b>>G.Titus <br>
+                        <b>Age:</b> 20
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> titusgeorge373@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Education Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Educational</h2>
+            <p>Study of the Education</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>BCA</h3>
+                <li>CSI Jayaraj Annapackiam College.Nallur</li>
+                <li>MS University</li>
+                <li>2019-2022</li>
+                <li>Grade-7.38%</li>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>HRS</h3>
+                <li>Punitha Arulapper HR SEC School.Avudayanoor</li>
+                <li>State Borad</li>
+                <li>2018-2019</li>
+                <li>51%</li>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-drupal fa-4x"></i>
+                <h3>S.S.L.C</h3>
+                <li>Punitha Arulapper HR SEC School.Avudayanoor</li>
+                <li>State Borad</li>
+                <li>2017-2018</li>
+                <li>71%</li>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-joomla fa-4x"></i>
+                <h3>LEARNING IN COURSE</h3>
+                <li>Aruvi Institude.Tenkasi</li>
+                <li>Python</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Creating project Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h3>OUR LATEST PROJECT</h3>
+              <p>Complaint Management System</p>
+               
+            <br>
+            <div class="content">
+                <div>
+                    <ul>
+                       <h3>Frontend</h3><br>
+                           <li>Html</li>
+                           <li>Css</li>
+                           <li>Javascript</li>
+                           <li>Boostrap</li>
+                       </ul>
+                       <br>
+                       <ul>
+                           <h3>Backend</h3><br>
+                           <li>PHP</li>
+                           <li>Mysql</li>
+                       </ul>
+                   </div>
+               <div class="workBx">
+                 <img src="../portfolio/image/cms.png"> 
+               </div>
+
+        </div>
+    </section>
+
+    <!-- Creating skill Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>>SKILLS</h2>
+            <ul >
+                <li>Python</li>
+                <img src="../portfolio/image/python.jpg"><br>
+                <li>Html</li><br>
+                <img src="../portfolio/image/html.jpg"><br>
+                <li>Css</li><br>
+                <img src="../portfolio/image/css.jpg"><br>
+                <li>Javascript</li><br>
+                <img src="../portfolio/image/css.jpg"><br>
+                <li>Ms office</li><br>
+                <img src="../portfolio/image/js.jpg"><br>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>I egarly waiting  to develop to my skill</p>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for Teaching Language and work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>5/192 south street, <br>servaikaranpatty,tenkasi,<br>627415</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>9025444754</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>titusgeorge373@gmail</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2022, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
